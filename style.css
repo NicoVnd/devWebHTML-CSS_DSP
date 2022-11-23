@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "LiberationSans-Regular";
+    src: local("fonts/LiberationSans-Regular-webfont.ttf")
+  }
+
+* {
+    font-family: "LiberationSans-Regular";
+}
+
 ul {
   list-style: none;
 }
