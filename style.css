@@ -1,3 +1,4 @@
+/* FONT */
 @font-face {
     font-family: "LiberationSans-Regular";
     src: local("fonts/LiberationSans-Regular-webfont.ttf")
@@ -7,6 +8,7 @@
     font-family: "LiberationSans-Regular";
 }
 
+/* NAVBAR */
 ul {
   list-style: none;
 }
@@ -16,6 +18,7 @@ a {
   color: #000000;
 }
 
+/* FOOTER */
 .footer {
   background-color: #2f2f2f;
 }
@@ -35,6 +38,7 @@ a {
   padding: 8px;
 }
 
+/* IMAGE SOLDE */
 .imageBoxe {
   position: relative;
 }
