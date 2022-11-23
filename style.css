@@ -65,3 +65,9 @@ a {
 .bgImage {
   background-color: rgb(244, 244, 244);
 }
+
+.imageHeader img {
+     width:100%
+    }
+    
+
