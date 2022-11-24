@@ -1,11 +1,11 @@
 /* FONT */
 @font-face {
-    font-family: "LiberationSans-Regular";
-    src: local("fonts/LiberationSans-Regular-webfont.ttf")
-  }
+  font-family: "LiberationSans-Regular";
+  src: local("fonts/LiberationSans-Regular-webfont.ttf");
+}
 
 * {
-    font-family: "LiberationSans-Regular";
+  font-family: "LiberationSans-Regular";
 }
 
 /* NAVBAR */
@@ -60,14 +60,46 @@ a {
   border-radius: 10px;
 }
 
-
 /* Background blanc */
 .bgImage {
   background-color: rgb(244, 244, 244);
 }
 
-.imageHeader img {
-     width:100%
-    }
-    
+/* Titre Gants de Boxe */
+.titreGants {
+  position: absolute;
+  transform: translate(30%, -130%);
+}
 
+/* Version Mobile */
+/* MOBILE */
+@media (max-width: 768px) {
+  .image-mobile img {
+    width: 280px;
+    height: auto;
+    transform: translate(-15px, -20px);
+  }
+
+  .imageHeader {
+    padding: 0;
+  }
+
+  .image-mobile p {
+    position: absolute;
+    top: 7%;
+    padding: 0.2em 0.5em;
+    border-radius: 0.5em;
+    transform: translate(20px, -20px);
+  }
+
+  #banner {
+    min-width: 100%;
+  }
+
+  .titreGants {
+    position: absolute;
+    transform: translate(-4%, -196%);
+  }
+
+
+}
